@@ -1,0 +1,110 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    background-color: rgb(238, 55, 147);
+    color: white;
+  }
+  
+  h1 {
+    text-align: center;
+    color: darkslategrey;
+  }
+  
+  .container {
+    margin: 30px auto;
+    width: 90%; 
+    max-width: 600px; 
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px; 
+}
+
+  .search {
+    width: 100%;
+  }
+  
+  form {
+    display: flex;
+    justify-content: space-between; /* Para que el input y el botón estén uno al lado del otro */
+  }
+  
+  input {
+      padding: 15px 10px;
+      outline: none;
+      width: 100%; /* Ancho adaptable */
+      box-sizing: border-box; /* Incluir padding en el ancho */
+      margin-right: 10px; /* Espacio entre el input y el botón */
+  }
+  
+  .li-container {
+      background-color: white;
+      width: 100%;
+      color: rgb(95, 31, 61);
+      margin-top: 20px;
+  }
+  
+  ul {
+      padding: 0;
+  }
+  
+  li {
+      list-style: none;
+      background-color: lightgray;
+      border-radius: 10px;
+      margin-top: 15px;
+      display: flex;
+      justify-content: space-between; /* Para que el texto y el botón de eliminar estén uno al lado del otro */
+  }
+  
+  li p {
+      margin: 0;
+      padding: 15px;
+      width: 100%;
+  }
+  
+  .btn-delete {
+      margin-left: auto;
+      border: none;
+      background-color: rgb(236, 109, 25);
+      color: white;
+      font-weight: bold;
+      padding: 5px 10px;
+      outline: none;
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+      width: 10%; /* Puedes ajustar este ancho */
+      font-size: 1.2em;
+  }
+  
+  .btn-delete:hover {
+      cursor: pointer;
+      background-color: rgb(231, 138, 189);
+  }
+  
+  .btn-add {
+      padding: 5px 15px;
+      border: none;
+      color: white;
+      font-family: fantasy;
+      background-color: rgb(192, 59, 132);
+      font-size: 1.4rem;
+      outline: none;
+  }
+  
+  .btn-add:hover {
+      cursor: pointer;
+      background-color: rgb(236, 109, 25);
+  }
+  
+  .empty {
+      color: darkslategrey;
+      display: none; /* Ocultar inicialmente */
+  }
+  /* Estilo para tareas completadas */
+.completed p {
+    text-decoration: line-through; /* Aplica el tachado */
+    color: gray; /* Cambia el color del texto si lo deseas */
+}
