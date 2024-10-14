@@ -1,5 +1,3 @@
-// app.js
-
 const input = document.querySelector("input"); // seleccionar el input
 const addBtn = document.querySelector(".btn-add"); // botón para añadir una tarea
 const ul = document.querySelector("ul");
